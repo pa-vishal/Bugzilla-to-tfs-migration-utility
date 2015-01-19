@@ -1,0 +1,13 @@
+﻿<Window x:Class="xmlRpcExample.TFS_To_TFS"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="TFS_To_TFS" Height="100" Width="300">
+    <Grid Background="Gray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBox Name="txtBugId" Height="30" Margin="10" ></TextBox>
+        <Button Name="btnTransfer" Height="30" Margin="10" Grid.Column="1" Click="btnTransfer_Click" > Transfer </Button>
+    </Grid>
+</Window>
